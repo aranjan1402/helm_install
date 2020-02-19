@@ -1,0 +1,4 @@
+- name: install helm 
+  hosts: all
+  roles:
+    - { role: helm }
